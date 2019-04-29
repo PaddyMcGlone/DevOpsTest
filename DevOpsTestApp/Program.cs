@@ -9,6 +9,7 @@ namespace DevOpsTestApp
         {
             var message = Greeting();
             Console.WriteLine(message);
+            Console.ReadLine();
         }
 
         static string Greeting()
